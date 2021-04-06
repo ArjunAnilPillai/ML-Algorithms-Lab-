@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<DecisionTree>
+	<petallengthcm flag="l" p="0.324" value="3.0">0</petallengthcm>
+	<petallengthcm flag="r" p="0.676" value="3.0">
+		<petalwidthcm flag="l" p="0.577" value="1.7">
+			<petallengthcm flag="l" p="0.902" value="5.1">1</petallengthcm>
+			<petallengthcm flag="r" p="0.098" value="5.1">
+				<sepallengthcm flag="l" p="0.25" value="6.1">1</sepallengthcm>
+				<sepallengthcm flag="r" p="0.75" value="6.1">2</sepallengthcm>
+			</petallengthcm>
+		</petalwidthcm>
+		<petalwidthcm flag="r" p="0.423" value="1.7">
+			<petallengthcm flag="l" p="0.133" value="4.9">
+				<sepalwidthcm flag="l" p="0.75" value="3.2">2</sepalwidthcm>
+				<sepalwidthcm flag="r" p="0.25" value="3.2">1</sepalwidthcm>
+			</petallengthcm>
+			<petallengthcm flag="r" p="0.867" value="4.9">2</petallengthcm>
+		</petalwidthcm>
+	</petallengthcm>
+</DecisionTree>

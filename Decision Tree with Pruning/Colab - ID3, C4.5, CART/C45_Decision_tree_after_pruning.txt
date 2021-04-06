@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<DecisionTree>
+	<worstperimeter flag="l" p="0.709" value="114.6">1</worstperimeter>
+	<worstperimeter flag="r" p="0.291" value="114.6">0</worstperimeter>
+</DecisionTree>
